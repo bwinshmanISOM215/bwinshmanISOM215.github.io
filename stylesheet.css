@@ -1,8 +1,7 @@
 body {
   background-image: url('bwinshmanISOM215.github.io/Images/teaChamomile.png');
+  padding: 100px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 400px;
-  width: 400px;
- padding: 100px;
+  background-size: cover;
 }
