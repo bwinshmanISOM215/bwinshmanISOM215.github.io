@@ -8,3 +8,14 @@ padding-top: 200px;
 font-family: fantasy;
 text-align: center;
 }
+
+.title {
+  font-size: 80px;
+  border-style: double;
+  border-width: thick;
+  border-radius: 50px;
+
+}
+.smallprint {
+  padding-top: 50px;
+}
