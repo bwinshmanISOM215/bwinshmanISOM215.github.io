@@ -1,8 +1,8 @@
-body {
-  background-image: url "bwinshmanISOM215.github.io/Images/teaChamomile.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  
-  font-family: cursive;
+.body{
+font-family: cursive;
+background-image: url("https://post.healthline.com/wp-content/uploads/2020/09/chamomile-tea-thumb.jpg");
+background-repeat: no-repeat;
+width: 300px;
+length: 300px;
+background-position: center;
 }
