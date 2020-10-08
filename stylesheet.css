@@ -1,6 +1,7 @@
 .body{
-font-family: fantasy;
 background-image: url("https://www.asweetpeachef.com/wp-content/uploads/2017/06/4-healthy-iced-teas-recipes-1.jpg"); 
+background-repeat: no-repeat;
+font-family: fantasy;
 padding: 300px;
 font-weight: bold;
 }
