@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book-O-Rama - New Book Entry</title>
+
+    <style type="text/css">
+
+	  body {background-color: pink;}
+
+      fieldset {
+         width: 25%;
+         border: 2px solid hotpink;
+      }
+
+      label {
+         float: left;
+         text-align: left;
+         font-weight: bold;
+      }
+
+      input {
+         border: 1px solid hotpink;
+         padding: 3px;
+
+      }
+
+    </style>
+</head>
+
+<body>
+  <h1>Send a Text</h1>
+
+  <form action="http://www.isom.biz/text/sms6.php" method="post">
+
+  <fieldset>
+    <p><label for="TextNumber">Text Number: </label>
+    <input required type="tel" id="TextNumber" name="TextNumber"
+	maxlength="12" placeholder="6176161000" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" />
+	<br><br>
+  <small>Format: 6176261000</small>
+	</p>
+
+
+<label for="mymessage">Write a Message</label>
+  <textarea id="mymessage" name="mymessage" rows="3" cols="75" color= hotpink >
+
+  </textarea>
+
+  <p><input type="submit" value="Send Text" /></p>
+</fieldset>
+
+  </form>
+</body>
+</html>
