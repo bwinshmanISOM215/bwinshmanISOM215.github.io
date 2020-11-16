@@ -4,10 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <style>
-
+  
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  
 body {
   background-color: #FFE4C4 ;
 }
+  
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 
@@ -124,10 +130,6 @@ text-align: center;
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 <style>
 
 * {
