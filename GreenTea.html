@@ -1,17 +1,145 @@
-<!DOCTYPE html>
+
+<! DOCTYPE html>
 <html>
+
 <style>
-.image {
-border-radius = 40%;
+body {
+    padding-top: 10px;
+  background-color: #eefdec;
+
 }
-.txt{
-text-align= center; 
-font-family= cursive;
-} 
-</style> 
+/* first picture  */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: cursive;
+}
+/* navigation */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: cursive;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.titleimg{
+  width: 100%;
+  height:90%;
+
+}
+/* health fact side by side*/
+.healthfacts {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Health {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.namee {
+  background-color: palegreen;
+  border-radius: 30%;
+}
+
+/* the three images*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
+</style>
 
 <body>
-<h1 class=txt > Coming soon green tea </h1> 
-<img class=image src='https://i.pinimg.com/originals/7b/41/f7/7b41f7ae3ac370c966f3931ed4ab991c.jpg' > 
-</body>
-</html>
+
+  <head>
+    <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
+    <a href='https://bwinshmanisom215.github.io/whitetea.html'> White Tea</a>
+    <a href="https://bwinshmanisom215.github.io/blacktea.html">Black Tea</a>
+    <a href="https://bwinshmanisom215.github.io/herbaltea.html">Herbal Tea</a>
+  </div>
+
+  </head>
+
+<div>
+ <img class="titleimg" src="https://cdn.shopify.com/s/files/1/2268/0163/files/matcha-tips-for-the-perfect-matcha-latte.jpg?v=1558977812"> </img>
+  <div class="centered">Green Tea</div>
+</div>
+<h2 class=healthfacts> Heath Facts <h2>
+
+<br>
+
+<div class= Health>
+
+    <h2 class= namee> 1. Contains healthy bioactive compounds <h2>
+      <p> Green tea contains a catechin called epigallocatechin-3-gallate (EGCG). Catechins are natural antioxidants that help prevent cell damage and provide other benefits.<br><br>
+These substances can reduce the formation of free radicals in the body, protecting cells and molecules from damage. These free radicals play a role in aging and many types of diseases.</p>
+</div>
+
+<br>
+
+<div class= Health>
+
+    <h2 class=namee> 2. Increases fat burning <h2>
+      <p> According to research, green tea can increase fat burning and boost metabolic rate (12). <br> <br>
+
+In one study involving 10 healthy men, taking green tea extract increased the number of calories burned by 4%. In another involving 12 healthy men, green tea extract increased fat oxidation by 17%, compared with those taking a placebo (13Trusted Source, 14Trusted Source) </p>
+</div>
+
+ <br>
+
+<div class= Health>
+
+    <h2 class=namee> 3. Improve blood flow and lower cholesterol <h2>
+      <p class= border_left > A 2013 review of many studies found green tea helped prevent a range of heart-related issues, from high blood pressure to congestive heart failure. </p>
+</div>
+
+
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.fona.com/wp-content/uploads/2020/03/matcha-latte-with-dessert-800x800.jpg" alt="Snow" style="width:100%">
+  </div>
+ 
+ <div class="column">
+    <img src="https://article.innovadatabase.com/articleimgs/article_images/637286754434142507tea%20herbals2.jpg"
+ alt="Forest" style="width:100%">
+  </div>
+  <div
+ class="column">
+    <img src="https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormickcan/recipes/tablet/matcha_green_tea_and_ginger_latte_800.jpg"
+ alt="Mountains" style="width:100%">
+  </div>
+</div>
