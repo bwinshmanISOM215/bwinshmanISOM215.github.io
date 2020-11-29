@@ -1,18 +1,199 @@
   
-<!DOCTYPE html>
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Author:  <Breanna Winshman>
+  % Date:    <november 30th, 2020>
+  % Course:  ISOM215A Fall 2020
+  % Site:    https://bwinshmanISOM215.github.io
+  % Description:white Tea information
+  %     
+  % Page Name: emailfeedback.html
+  % Page Summary & Features: 
+  %      information about white tea 
+  %      
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<! DOCTYPE html>
 <html>
+<head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
-.image {
-border-radius = 40%;
-}
-.txt{
-text-align= center; 
-font-family= cursive;
-} 
-</style> 
+ 
+body {
+    padding-top: 10px;
+  background-color:#eefdec;
 
+}
+/* first picture  */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 500%;
+  font-family: cursive;
+  color: black;
+  text-outline: 2px 2px white;
+}
+  
+ /*navigation*/
+ 
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ font-family: cursive;
+}
+
+.topnav a:hover {
+  background-color: #e1f2e2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c6e6c7;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+ 
+ 
+/* big image */
+ 
+.titleimg{
+  width: 100%;
+  max-height:700px;
+}
+ 
+/* health fact side by side*/
+.healthfacts {
+  padding-top:5%;
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Health {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+ 
+.namee {
+  background-color: #990000;
+  border-radius: 30%;
+  color: white;
+}
+/* the three images*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+ 
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+ 
+</style>
+ 
 <body>
-<h1 class=txt > Coming soon white tea</h1> 
-<img class=image src='https://i.pinimg.com/originals/7b/41/f7/7b41f7ae3ac370c966f3931ed4ab991c.jpg' > 
-</body>
-</html>
+
+ <head>
+<div class="topnav" id="myTopnav">
+    <a> Home</a>
+    <a href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
+    <a class="active" href="https://bwinshmanisom215.github.io/whitetea.html"> White Tea</a>
+    <a href="https://bwinshmanisom215.github.io/blacktea.html">Black Tea</a>
+    <a href="https://bwinshmanisom215.github.io/herbaltea.html">Herbal Tea</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
+  </div
+  </head>
+
+
+<div>
+ <img class="titleimg" src="https://m.media-amazon.com/images/S/abs-image-upload-na/7/AmazonStores/ATVPDKIKX0DER/69f9134406e24ce89245ae1589d90609.w960.h640.jpg"> </img>
+  <div class="centered">White Tea</div>
+</div>
+<h2 class=healthfacts> Heath Facts <h2>
+
+<br>
+
+<div class= Health>
+
+    <h2 class= namee> 1. Skin Health <h2>
+      <p>White tea contains high amounts of phenols, which can strengthen both collagen and elastin lending 
+        a smoother, more youthful appearance to skin. These two proteins are vital in creating strong skin 
+        and preventing wrinkles and can be found in a variety of skincare products.</p>
+</div>
+
+<br>
+
+<div class= Health>
+
+    <h2 class=namee> 2. Improves Calmness, Focus and Alertness <h2>
+      <p>White tea has the highest concentration of L-theanine amongst the true teas. L-theanine is known for improving alertness and focus in the
+        brain by inhibiting exciting stimuli that can lead to overactivity. By calming the stimuli in the brain, white tea can help 
+        you relax while also increasing focus </p>
+</div>
+
+ <br>
+
+<div class= Health>
+
+    <h2 class=namee> 3. Reduces Inflammation<h2>
+      <p > The catechins and polyphenols in white tea boast anti-inflammatory properties that can help relieve minor aches
+        and pains. A Japanese animal study published in the MSSE Journal showed that catechins found in white tea aided 
+        in quicker muscle recovery and less muscle damage </p>
+</div>
+
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <img src="https://chitchaaatchai.com/wp-content/uploads/2019/01/cardamom-green-tea-500x500.jpg" 
+         alt="tea" style="width:100%">
+  </div>
+ 
+ <div class="column">
+    <img src="https://ccfinetea.com/wp-content/uploads/2020/04/Mao-Feng-Leaf-Liquid-Square-500x500.jpg"
+ alt="tea" style="width:100%">
+  </div>
+  <div
+ class="column">
+    <img src="https://www.nourishedbycaroline.ca/wp-content/uploads/2018/10/IMG_0099-1-500x500.jpg"
+ alt="tea" style="width:100%">
+  </div>
+</div>
+        </body>
+    </html>
