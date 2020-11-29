@@ -15,6 +15,7 @@
 <head>
  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
  
@@ -64,7 +65,22 @@ body {
   display: none;
 }
 
- 
+ @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
 .topnav.responsive a {
     float: none;
     display: block;
@@ -120,26 +136,10 @@ body {
     width: 100%;
   }
  
- 
- /*media screen for navigation */
- @media screen and (max-width: 500px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
- 
-@media screen and (max-width: 500px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
 
 </style>
  
- <script>
+<script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -154,7 +154,6 @@ function myFunction() {
 
  <head>
 <div class="topnav" id="myTopnav">
-  <div rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </div>
     <a> Home</a>
     <a class="active" href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
     <a href="https://bwinshmanisom215.github.io/whitetea.html"> White Tea</a>
