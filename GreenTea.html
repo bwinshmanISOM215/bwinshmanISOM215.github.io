@@ -119,6 +119,22 @@ body {
   .column {
     width: 100%;
   }
+ 
+ /*media screen for navigation */
+ @media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+ 
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
 </style>
  
@@ -137,16 +153,6 @@ function myFunction() {
 
  <head>
 
-<div class="topnav" id="myTopnav">
- <div rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </div>
-    <a class="active" >Home</a>
-    <a href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
-    <a href='https://bwinshmanisom215.github.io/whitetea.html'> White Tea</a>
-    <a href="https://bwinshmanisom215.github.io/blacktea.html">Black Tea</a>
-    <a href="https://bwinshmanisom215.github.io/herbaltea.html">Herbal Tea</a>
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </div>
 
   </head>
 
