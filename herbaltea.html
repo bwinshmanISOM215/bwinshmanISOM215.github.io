@@ -1,17 +1,197 @@
-<!DOCTYPE html>
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Author:  <Breanna Winshman>
+  % Date:    <november 30th, 2020>
+  % Course:  ISOM215A Fall 2020
+  % Site:    https://bwinshmanISOM215.github.io
+  % Description:white Tea information
+  %     
+  % Page Name: emailfeedback.html
+  % Page Summary & Features: 
+  %      information about white tea 
+  %    
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<! DOCTYPE html>
 <html>
+<head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
-.image {
-border-radius = 40%;
-}
-.txt{
-text-align= center; 
-font-family= cursive;
-} 
-</style> 
+ 
+body {
+    padding-top: 10px;
+  background-color:#eefdec;
 
+}
+/* first picture  */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 500%;
+  font-family: cursive;
+  color: black;
+  text-outline: 2px 2px white;
+}
+  
+ /*navigation*/
+ 
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ font-family: cursive;
+}
+
+.topnav a:hover {
+  background-color: #e1f2e2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c6e6c7;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+ 
+ 
+/* big image */
+ 
+.titleimg{
+  width: 100%;
+  max-height:700px;
+}
+ 
+/* health fact side by side*/
+.healthfacts {
+  padding-top:5%;
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Health {
+  font-family: serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+ 
+.namee {
+  background-color: #ffffb3;
+  border-radius: 30%;
+  color: black;
+}
+/* the three images*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+ 
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+ 
+</style>
+ 
 <body>
-<h1 class=txt > Coming soon herbal Tea </h1> 
-<img class=image src='https://i.pinimg.com/originals/7b/41/f7/7b41f7ae3ac370c966f3931ed4ab991c.jpg' > 
-</body>
-</html>
+
+ <head>
+<div class="topnav" id="myTopnav">
+    <a> Home</a>
+    <a href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
+    <a href="https://bwinshmanisom215.github.io/whitetea.html"> White Tea</a>
+    <a href="https://bwinshmanisom215.github.io/blacktea.html">Black Tea</a>
+    <a class="active" href="https://bwinshmanisom215.github.io/herbaltea.html">Herbal Tea</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
+  </div
+  </head>
+
+
+<div>
+ <img class="titleimg" src="https://img5.goodfon.com/wallpaper/nbig/f/4e/vetki-vesna-sakura-tsvetenie-pink-blossom-sakura-cherry-sp-7.jpg"> </img>
+  <div class="centered">Herbal Tea</div>
+</div>
+<h2 class=healthfacts> Heath Facts <h2>
+
+<br>
+
+<div class= Health>
+
+    <h2 class= namee> 1. It Can Help You Relax <h2>
+      <p>Herbal tea is popularly known for its calming effects and has been used for centuries as the focal point of social events and unwinding after a long day.
+     Herbal tea has no caffine in it, therefore, it makes a wonderful drink before bed. </p>
+</div>
+
+<br>
+
+<div class= Health>
+
+    <h2 class=namee> 2. Improves Your Digestive System <h2>
+      <p>Herbal teas have phenols that can strengthen both stomach muscles and the muscles in your 
+        esophagus, which can reduce acid reflux and heartburn symptoms. Teas also enable your digestive 
+        tract to more easily absorb nutrients. </p>
+</div>
+
+ <br>
+
+<div class= Health>
+
+    <h2 class=namee> 3. Anti-ageing <h2>
+      <p > The antioxidants found in herbal teas have shown to aid in 
+        slowing down the ageing process. They prevent free radical damage and reduce 
+        the ageing of cells in the body. This makes your skin and hair look and feel younger. </p>
+</div>
+
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <img src="https://image.made-in-china.com/2f0j00nNjQVIOKGyre/Newly-Harvested-Dried-Rose-Buds-Rose-Tea-Chinese-Herbal-Tea.jpg" 
+         alt="tea" style="width:100%">
+  </div>
+ 
+ <div class="column">
+    <img src="https://cdn.shopify.com/s/files/1/0375/8781/2485/articles/Health_Benefits_of_Chamomile_Tea_2_1024x1024.jpg?v=1587548421"
+ alt="tea" style="width:100%">
+  </div>
+  <div
+ class="column">
+    <img src="https://roomsbury.com/wp-content/uploads/2019/06/butterfly-pea-tea.jpg"
+ alt="tea" style="width:100%">
+  </div>
+</div>
+        </body>
+    </html>
