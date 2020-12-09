@@ -39,6 +39,45 @@ h2 {
   text-align: center;  
 }
 
+ /*navigation*/
+ 
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vw;
+ font-family: cursive;
+}
+
+.topnav a:hover {
+  background-color: #e1f2e2;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c6e6c7;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+ 	
+	
 </style>
 
 <script type="text/javascript">
@@ -86,6 +125,22 @@ if (ValidateEmail())
   }}
 </script>
 
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/jpg" href="/bwinshmanISOM215.github.io/favicon-32x32.png"/>
+ 
+
+<div class="topnav" id="myTopnav">
+    <a href="https://bwinshmanisom215.github.io/index.html" > Home</a>
+    <a href="https://bwinshmanisom215.github.io/GreenTea.html">Green Tea</a>
+    <a class="active" href="https://bwinshmanisom215.github.io/whitetea.html"> White Tea</a>
+    <a href="https://bwinshmanisom215.github.io/blacktea.html">Black Tea</a>
+    <a href="https://bwinshmanisom215.github.io/herbaltea.html">Herbal Tea</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
+	</div>
+	
 </head>
 <body style="background-color:#7ed6df">
 <h2>Send us your feedback.</h2>
@@ -102,7 +157,7 @@ How can we do better?
   <p><input style="margin-left: 114px" type="button" src="email3.png" value="Send Email" onclick="sendEmail('foo')"/></p>
 <br /> 
  </form>
-<div style="text-align:center" > Site Created by Breanna W.</div>
+
 </body>
 	
 	 <footer>
